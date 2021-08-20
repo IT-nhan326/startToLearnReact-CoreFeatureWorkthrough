@@ -4,7 +4,7 @@ import MeetupItem from "./MeetupItem";
 const MeetupList = (props) => {
   return (
     <ul className={styles.list}>
-      {props.meetupTransfer.map((meetupIN) => (
+      {props.meetupTransfer.map(meetupIN => 
         <MeetupItem
           key={meetupIN.id}
           id={meetupIN.id}
@@ -13,9 +13,9 @@ const MeetupList = (props) => {
           address={meetupIN.address}
           description={meetupIN.description}
         />
-      ))}
+      )}
     </ul>
-  );
+  )
 };
 
 export default MeetupList;
