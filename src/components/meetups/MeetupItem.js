@@ -26,7 +26,7 @@ const MeetupItem = (props) => {
     <li className={styles.item}>
       <Card>
         <div className={styles.image}>
-          <img scr={props.image} alt='' />
+          <img src={props.image} alt='' />
         </div>
         <div className={styles.content}>
           <h3>{props.title}</h3>
